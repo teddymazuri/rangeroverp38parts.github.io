@@ -124,15 +124,10 @@ p {
     border-radius: 10px;
 }
 
-/* Media query for smaller screens */
+/* Media query for smaller screens (mobile) */
 @media only screen and (max-width: 600px) {
-    .modal-content {
-        width: 90%; /* Adjust width for smaller screens */
-        padding: 10px; /* Adjust padding for smaller screens */
-    }
-
-    #modalImage {
-        max-height: 300px; /* Reduce maximum height for smaller screens */
+    .card {
+        width: 100%; /* One card per row on smaller screens */
     }
 }
 
